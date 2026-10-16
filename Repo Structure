@@ -1,0 +1,15 @@
+Syllabus/
+├── Syllabus.xcodeproj/
+├── Syllabus/
+│   ├── SyllabusApp.swift
+│   ├── ContentView.swift
+│   ├── MainView.swift
+│   └── SyllabusScreen.swift
+├── Packages/
+│   ├── BasiliskCore/
+│   ├── BasiliskUI/
+│   └── MillariumCore/
+├── Tests/
+├── README.md
+├── LICENSE
+└── .gitignore
