@@ -12,7 +12,8 @@ Dies ist noch der PRERELEASE: bis jetzt funktioniert nur der Syllabus.
 
 **Installation**
 
-Lade unter Releases die aktuelle stabile Version als .dmg-Image herunter und ziehe sie in den Applications-Ordner. Da es sich um eine aus dem Internet geladene App handelt musst ihr vertrauen.
+Lade unter Releases die aktuelle stabile Version als .dmg-Image herunter. Öffne sie per Doppelklick und ziehe "Syllabus" per Drag und Drop in den Applications Ordner. Da es sich um eine aus dem Internet geladene App handelt musst du ihr explizit vertrauen (falls kein Pop Up kommt in den Systemeinstellungen).
+
 
 **So verknüpfst du einen Ordner**
 
