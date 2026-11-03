@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B33A3C309A16D000F9EE3B /* BasiliskUI in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A3B309A16D000F9EE3B /* BasiliskUI */; };
 		32E9699A3076D15700676971 /* BasiliskCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32E969993076D15700676971 /* BasiliskCore */; };
 		32E9699C3076D15700676971 /* basilisk in Frameworks */ = {isa = PBXBuildFile; productRef = 32E9699B3076D15700676971 /* basilisk */; };
 		32FFFB003076C47C007C2285 /* BasiliskUI in Frameworks */ = {isa = PBXBuildFile; productRef = 32FFFAFF3076C47C007C2285 /* BasiliskUI */; };
@@ -30,6 +31,7 @@
 			files = (
 				32E9699C3076D15700676971 /* basilisk in Frameworks */,
 				32FFFB003076C47C007C2285 /* BasiliskUI in Frameworks */,
+				32B33A3C309A16D000F9EE3B /* BasiliskUI in Frameworks */,
 				32E9699A3076D15700676971 /* BasiliskCore in Frameworks */,
 			);
 		};
@@ -81,6 +83,7 @@
 				32FFFAFF3076C47C007C2285 /* BasiliskUI */,
 				32E969993076D15700676971 /* BasiliskCore */,
 				32E9699B3076D15700676971 /* basilisk */,
+				32B33A3B309A16D000F9EE3B /* BasiliskUI */,
 			);
 			productName = Syllabus;
 			productReference = 324CE9A53076AB6D00C379B6 /* Syllabus.app */;
@@ -111,8 +114,7 @@
 			mainGroup = 324CE99C3076AB6D00C379B6;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				32FFFAFE3076C47C007C2285 /* XCLocalSwiftPackageReference "../BasiliskUI" */,
-				32E969983076D15700676971 /* XCLocalSwiftPackageReference "../BasiliskCore" */,
+				32B33A3A309A16D000F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 324CE9A63076AB6D00C379B6 /* Products */;
@@ -344,18 +346,23 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		32E969983076D15700676971 /* XCLocalSwiftPackageReference "../BasiliskCore" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../BasiliskCore;
+/* Begin XCRemoteSwiftPackageReference section */
+		32B33A3A309A16D000F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/deferdixv/BasiliskUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-		32FFFAFE3076C47C007C2285 /* XCLocalSwiftPackageReference "../BasiliskUI" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../BasiliskUI;
-		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		32B33A3B309A16D000F9EE3B /* BasiliskUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32B33A3A309A16D000F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */;
+			productName = BasiliskUI;
+		};
 		32E969993076D15700676971 /* BasiliskCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = BasiliskCore;

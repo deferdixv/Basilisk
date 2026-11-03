@@ -1,6 +1,33 @@
 {
-  "originHash" : "119ce09d37a70cfb6480f7242e927ae29818eb25f2f8d96d2a663d8689ba0843",
+  "originHash" : "52088417480c34ac083af2a191ef8eb0f7eba8f69d3954326ff2bee1f192974c",
   "pins" : [
+    {
+      "identity" : "basiliskcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/deferdixv/BasiliskCore.git",
+      "state" : {
+        "revision" : "0e9e826ea9b210353cfecb1529296da6bec75358",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "basiliskui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/deferdixv/BasiliskUI.git",
+      "state" : {
+        "revision" : "8b09c84659f2d03d35205a0a58a0b9d603b377aa",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "millariumcore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/deferdixv/MillariumCore.git",
+      "state" : {
+        "revision" : "aa05fd1ac9dab4b9cd858ce0a8d3fe1956982884",
+        "version" : "1.0.0"
+      }
+    },
     {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
