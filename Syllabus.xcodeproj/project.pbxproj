@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		32B33A48309A19B700F9EE3B /* BasiliskCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A47309A19B700F9EE3B /* BasiliskCore */; };
 		32B33A4B309A19DA00F9EE3B /* MillariumCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A4A309A19DA00F9EE3B /* MillariumCore */; };
-		32B33A4E309A1DB000F9EE3B /* BasiliskUI in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A4D309A1DB000F9EE3B /* BasiliskUI */; };
+		32B33A52309A1F7B00F9EE3B /* BasiliskCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A51309A1F7B00F9EE3B /* BasiliskCore */; };
+		32B33A55309A1F9100F9EE3B /* MillariumCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A54309A1F9100F9EE3B /* MillariumCore */; };
+		32B33A67309A496000F9EE3B /* Basilisk.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B33A66309A496000F9EE3B /* Basilisk.xcassets */; };
+		32B33A6A309A6B9800F9EE3B /* BasiliskUI in Frameworks */ = {isa = PBXBuildFile; productRef = 32B33A69309A6B9800F9EE3B /* BasiliskUI */; };
 		32E9699A3076D15700676971 /* BasiliskCore in Frameworks */ = {isa = PBXBuildFile; productRef = 32E969993076D15700676971 /* BasiliskCore */; };
 		32E9699C3076D15700676971 /* basilisk in Frameworks */ = {isa = PBXBuildFile; productRef = 32E9699B3076D15700676971 /* basilisk */; };
 		32FFFB003076C47C007C2285 /* BasiliskUI in Frameworks */ = {isa = PBXBuildFile; productRef = 32FFFAFF3076C47C007C2285 /* BasiliskUI */; };
@@ -17,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		324CE9A53076AB6D00C379B6 /* Syllabus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syllabus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B33A66309A496000F9EE3B /* Basilisk.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Basilisk.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,9 +36,11 @@
 			isa = PBXFrameworksBuildPhase;
 			files = (
 				32E9699C3076D15700676971 /* basilisk in Frameworks */,
+				32B33A55309A1F9100F9EE3B /* MillariumCore in Frameworks */,
+				32B33A6A309A6B9800F9EE3B /* BasiliskUI in Frameworks */,
 				32FFFB003076C47C007C2285 /* BasiliskUI in Frameworks */,
-				32B33A4E309A1DB000F9EE3B /* BasiliskUI in Frameworks */,
 				32E9699A3076D15700676971 /* BasiliskCore in Frameworks */,
+				32B33A52309A1F7B00F9EE3B /* BasiliskCore in Frameworks */,
 				32B33A4B309A19DA00F9EE3B /* MillariumCore in Frameworks */,
 				32B33A48309A19B700F9EE3B /* BasiliskCore in Frameworks */,
 			);
@@ -45,6 +51,7 @@
 		324CE99C3076AB6D00C379B6 = {
 			isa = PBXGroup;
 			children = (
+				32B33A66309A496000F9EE3B /* Basilisk.xcassets */,
 				324CE9A73076AB6D00C379B6 /* Syllabus */,
 				32E9698D3076C71200676971 /* Frameworks */,
 				324CE9A63076AB6D00C379B6 /* Products */,
@@ -89,7 +96,9 @@
 				32E9699B3076D15700676971 /* basilisk */,
 				32B33A47309A19B700F9EE3B /* BasiliskCore */,
 				32B33A4A309A19DA00F9EE3B /* MillariumCore */,
-				32B33A4D309A1DB000F9EE3B /* BasiliskUI */,
+				32B33A51309A1F7B00F9EE3B /* BasiliskCore */,
+				32B33A54309A1F9100F9EE3B /* MillariumCore */,
+				32B33A69309A6B9800F9EE3B /* BasiliskUI */,
 			);
 			productName = Syllabus;
 			productReference = 324CE9A53076AB6D00C379B6 /* Syllabus.app */;
@@ -120,7 +129,7 @@
 			mainGroup = 324CE99C3076AB6D00C379B6;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				32B33A4C309A1DB000F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */,
+				32B33A68309A6B9800F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 324CE9A63076AB6D00C379B6 /* Products */;
@@ -136,6 +145,7 @@
 		324CE9A33076AB6D00C379B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				32B33A67309A496000F9EE3B /* Basilisk.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -273,7 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -304,7 +316,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -353,12 +367,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		32B33A4C309A1DB000F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */ = {
+		32B33A68309A6B9800F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/deferdixv/BasiliskUI.git";
+			repositoryURL = "https://github.com/deferdixv/BasiliskUI";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -372,9 +386,17 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = MillariumCore;
 		};
-		32B33A4D309A1DB000F9EE3B /* BasiliskUI */ = {
+		32B33A51309A1F7B00F9EE3B /* BasiliskCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 32B33A4C309A1DB000F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */;
+			productName = BasiliskCore;
+		};
+		32B33A54309A1F9100F9EE3B /* MillariumCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MillariumCore;
+		};
+		32B33A69309A6B9800F9EE3B /* BasiliskUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32B33A68309A6B9800F9EE3B /* XCRemoteSwiftPackageReference "BasiliskUI" */;
 			productName = BasiliskUI;
 		};
 		32E969993076D15700676971 /* BasiliskCore */ = {

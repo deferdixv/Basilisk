@@ -25,7 +25,7 @@ struct SyllabusApp: App {
                 .environment(environment)
                 .environment(store)
                 .frame(minWidth: 1000, minHeight: 620)
-                .task { store.reloadCourses() }
+                .task { store.syncWithFinder() }
         }
         .windowResizability(.contentMinSize)
     }

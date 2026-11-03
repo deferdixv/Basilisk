@@ -1,22 +1,22 @@
 {
-  "originHash" : "52088417480c34ac083af2a191ef8eb0f7eba8f69d3954326ff2bee1f192974c",
+  "originHash" : "ab00db395be3a4ba11590d9783c89db2720d3231c0a6c2cabc29f4285f0bede8",
   "pins" : [
     {
       "identity" : "basiliskcore",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/deferdixv/BasiliskCore.git",
       "state" : {
-        "revision" : "0e9e826ea9b210353cfecb1529296da6bec75358",
-        "version" : "1.0.0"
+        "revision" : "3c6dd7724a2d805dc077fd7eaddb1ac684d26fe8",
+        "version" : "1.1.0"
       }
     },
     {
       "identity" : "basiliskui",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/deferdixv/BasiliskUI.git",
+      "location" : "https://github.com/deferdixv/BasiliskUI",
       "state" : {
-        "revision" : "8b09c84659f2d03d35205a0a58a0b9d603b377aa",
-        "version" : "1.0.0"
+        "revision" : "24b81a4af84a05be0b3ac339995d95a113a5a716",
+        "version" : "1.1.0"
       }
     },
     {

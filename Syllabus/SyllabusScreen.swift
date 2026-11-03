@@ -40,6 +40,9 @@ struct SyllabusScreen: View {
             onAddCourse: { name in
                 store.createCourse(named: name)
             },
+            onPickUniversityRoot: {
+                store.pickAndSetUniversityRoot()
+            },
             onAddChapter: { title, courseID in
                 store.createChapter(titled: title, in: courseID)
             },
@@ -83,6 +86,12 @@ struct SyllabusScreen: View {
             },
             onUpdateStepNotes: { step, notes in
                 store.updateStepNotes(step, notes: notes)
+            },
+            onAddFileLink: { title, url, stepID in
+                store.createFileLink(forStep: stepID, title: title, url: url)
+            },
+            onDeleteFileLink: { link in
+                store.deleteFileLink(link)
             },
         )
         .sheet(item: $renameTarget) { action in
