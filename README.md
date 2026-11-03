@@ -12,14 +12,7 @@ Dies ist noch der PRERELEASE: bis jetzt funktioniert nur der Syllabus.
 
 **Installation**
 
-Lade unter Releases die aktuelle stabile Version als .dmg-Image herunter.
-
-oder nutze pip und homebrew
-
-oder wenn du Xcode hast Xcode.
-
-Je nachdem brauchst du eine Signatur. (Kontaktier mich in diesem Fall.)
-Es kann sein, dass du manuell in den Systemeinstellungen Zugriff erlauben musst.
+Lade unter Releases die aktuelle stabile Version als .dmg-Image herunter und ziehe sie in den Applications-Ordner. Da es sich um eine aus dem Internet geladene App handelt musst ihr vertrauen.
 
 **So verknüpfst du einen Ordner**
 
