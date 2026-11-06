@@ -25,6 +25,7 @@ Lade unter Releases die aktuelle stabile Version als .dmg-Image herunter. Öffne
 
 
 **Künftige Features**
+- Planen-Ansicht mit den Tabs "Sessions", "Erinnerungen" und "Notizen", über Apple EventKit verknüpfbar mit "Reminders", "Calender" und über Markdown lassen sich Notizen mühelos formatieren.
 - Schritte können mit einem "Erinner mich dran"-Button (Glocke) zu "Erinnerungen" hinzugefügt werden
 
 Mit EventKit in einem "Planen"-Fenster
